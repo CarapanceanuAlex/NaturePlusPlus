@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "natureplusplus",
+	"version": "${version}",
+	"name": "NaturePlusPlus",
+	"description": "Mod that improves the ambience",
+	"authors": [
+		"Carap"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/natureplusplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.carap.natureplusplus.NaturePlusPlus"
+		],
+		"fabric-datagen": [
+			"net.carap.natureplusplus.NaturePlusPlusDataGenerator"
+		],
+		"client": [
+			"net.carap.natureplusplus.NaturePlusPlusClient"
+		]
+	},
+	"mixins": [
+		"natureplusplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
