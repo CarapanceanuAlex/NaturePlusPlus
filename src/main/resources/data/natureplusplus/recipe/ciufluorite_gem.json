@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "natureplusplus:ciufluorite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "natureplusplus:ciufluorite_gem"
+  }
+}

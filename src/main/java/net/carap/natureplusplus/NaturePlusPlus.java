@@ -1,5 +1,7 @@
 package net.carap.natureplusplus;
 
+import net.carap.natureplusplus.block.ModBlocks;
+import net.carap.natureplusplus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ public class NaturePlusPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

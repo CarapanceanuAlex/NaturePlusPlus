@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "natureplusplus:duduonite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "natureplusplus:duduonite_gem"
+  }
+}

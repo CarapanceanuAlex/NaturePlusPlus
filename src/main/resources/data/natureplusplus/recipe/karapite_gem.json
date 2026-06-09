@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "natureplusplus:karapite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "natureplusplus:karapite_gem"
+  }
+}
